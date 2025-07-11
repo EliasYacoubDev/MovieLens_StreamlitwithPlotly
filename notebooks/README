@@ -1,0 +1,77 @@
+MovieLens Exploratory Data Analysis (EDA)
+
+This project performs a detailed exploratory analysis of the MovieLens 1M dataset. The goal is to derive insights into user preferences and behavior based on ratings, genres, and demographic information such as age, gender, occupation, and location.
+
+Objectives
+    The EDA aims to answer the following key questions:
+
+    Demographic Preferences
+
+    What genres are preferred by different genders, age groups, occupations, and geographic locations (zip codes)?
+
+    Rating Behavior
+
+    How do ratings differ across demographic groups?
+
+    Are some groups more generous or critical in their ratings?
+
+    Temporal Trends
+
+    Have ratings for movies increased or decreased over time?
+
+    What are the trends in rating behavior across different year ranges?
+
+Planned Analyses
+User & Rating Distributions
+
+    1. Gender Distribution
+
+    2. Age Distribution (Binned into ranges):
+
+        1: "Under 18"
+
+        18: "18–24"
+
+        25: "25–34"
+
+        35: "35–44"
+
+        45: "45–49"
+
+        50: "50–55"
+
+        56: "56+"
+
+    3. Occupation Distribution (Top 10 by user count)
+
+Movie & Genre Insights
+    1. Top 10 Most Rated Movies
+
+    2. Top 5 Genres per Gender
+
+    3. Top Genres by Age Group
+
+    4. Top Genres by Zip Code
+
+        Note: Movies with multiple genres (e.g., Action|Adventure) will be split into separate genre rows for more accurate aggregation.
+
+Rating Behavior Analysis
+    1. Average Rating by Gender
+
+    2. Average Rating by Age Group
+
+    3. Average Rating by Occupation
+
+    4. Average Rating by Zip Code
+
+    5. Time-Based Analysis
+        Average Rating Over Time
+        Group ratings by time periods such as:
+
+        2000–2005
+
+        2005–2010
+
+        and so on...
+
+        All timestamps will be converted to datetime for aggregation and visualization.
